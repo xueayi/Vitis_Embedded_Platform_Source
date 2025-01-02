@@ -74,8 +74,8 @@ set script_folder [_tcl::get_script_folder]
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
-   create_project zcu111_base zcu111_base -part xczu7ev-ffvc1156-2-e
-   set_property BOARD_PART xilinx.com:zcu111:part0:2.5 [current_project]
+   create_project zcu111_base zcu111_base -part xczu28dr-ffvg1517-2-e
+   set_property BOARD_PART xilinx.com:zcu111:part0:1.4 [current_project]
 }
 
 
